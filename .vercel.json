@@ -1,1 +1,1 @@
-```json { "routes": [ { "src": "/(.*)", "dest": "/" } ] } ```
+```json { "builds": [ { "src": "main.go", "use": "@vercel/go" } ], "routes": [ { "src": "/(.*)", "dest": "main.go" } ] } ```
